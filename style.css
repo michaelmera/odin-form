@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+
+    font-family: "Gill Sans", sans-serif;
+}
+
+#background {
+    width: 40vw;
+    background-image: url("images/plants.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#background p {
+    padding: 10px;
+
+    font-size: 12px;
+    text-align: center;
+}
+
+#background :link {
+    color: white;
+}
+
+#logo {
+    /* height: 20vh; */
+
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 20vh;
+    padding: 10px 0 10px 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+#logo img {
+    width: 100px;
+}
+
+#logo p {
+    font-size: 60px;
+}
+
+form {
+    width: 60vw;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+
+    background-color: #f9fafb;
+    justify-content: center;
+}
+
+label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+fieldset {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+
+    border: none;
+}
+
+.input-element {
+    width: 40%;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+input {
+    max-width: 15vw;
+}
+
+#description {
+    font-weight: bold;
+}
+
+#description > p {
+    padding: 10px 30px;
+}
+
+#inputs {
+    padding: 30px;
+
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#actions {
+    height: 10vh;
+    padding: 10px 30px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap: 5vh;
+}
+
+#actions button {
+    font-size: 16px;
+    font-weight: bold;
+  
+    color: #FFFFFF;
+    background-color: #596D48;
+  
+    border: none;
+    border-radius: 3px;
+  
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+#actions :link {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
